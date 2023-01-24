@@ -1,0 +1,78 @@
+html,input {
+    font-family: Fantasy;
+}
+
+body {
+    width: 100%;
+    max-width: 600px;
+    margin: 0px auto;
+    padding: 2em;
+}
+
+.headerContainer {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    background-color: tomato;
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+
+form {
+    background-color: rgb(130, 238, 170);
+}
+
+div {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+label,input {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+label {
+    text-align: right;
+    width: 30%;
+    margin-right: 2%;
+}
+
+input {
+    flex: auto;
+}
+
+#togglePassword {
+    margin-right: 10px;
+}
+
+button {
+    border-radius: 10px;
+    width: 71%;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-left: 15%;
+    margin-bottom: 15px;
+    font-family: Fantasy;
+    -webkit-box-shadow: 0 2px 0 0 #bd5305;
+    box-shadow: 0 2px 0 0 #ffffff;
+    background-color: rgb(0, 110, 255);
+    margin-right: 0.6rem;
+}
+
+button:hover {
+    -webkit-transform: translateY(1px);
+    -ms-transform: translateY(1px);
+    transform: translateY(1px);
+    -webkit-box-shadow: 0 1px 0 0 #8a1f23;
+    box-shadow: 0 1px 0 0 #07544e;
+}
+
+error-output {
+    font-size: 12px;
+    font-style: italic;
+    color: red;
+}
